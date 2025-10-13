@@ -46,6 +46,20 @@
           <span class="material-symbols-rounded"> code_blocks </span>
         </li>
       </ul>
+      <!-- chats container -->
+      <div class="chats-container">
+        <div class="message user-message">
+          <p class="message-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+          </p>
+        </div>
+        <div class="message bot-message">
+          <img src="images/gemini-chatbot-logo.svg" alt="" class="avatar" />
+          <p class="message-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+          </p>
+        </div>
+      </div>
 
       <div class="prompt-container">
         <div class="prompt-wrapper">
@@ -66,7 +80,7 @@
               </button>
               <button
                 id="send-prompt-btn"
-                type="button"
+                type="submit"
                 class="material-symbols-rounded"
               >
                 arrow_upward
@@ -75,7 +89,11 @@
           </form>
 
           <!-- theme toogle -->
-          <button id="theme-toggle-btn" class="material-symbols-rounded">
+          <button
+            id="theme-toggle-btn"
+            type="button"
+            class="material-symbols-rounded"
+          >
             light_mode
           </button>
           <button id="delete-shats-btn" class="material-symbols-rounded">
@@ -87,5 +105,6 @@
         </p>
       </div>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
